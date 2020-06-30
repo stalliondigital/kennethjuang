@@ -1,0 +1,68 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&family=Volkhov:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'pier_sansbold';
+    src: url('fonts/piersans-bold-webfont.woff2') format('woff2'),
+         url('fonts/piersans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pier_sansbold_italic';
+    src: url('fonts/piersans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/piersans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pier_sansitalic';
+    src: url('piersans-italic-webfont.woff2') format('woff2'),
+         url('fonts/piersans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pier_sansregular';
+    src: url('fonts/piersans-regular-webfont.woff2') format('woff2'),
+         url('fonts/piersans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Font Styling for Components */
+.navbar-brand {
+    font-family: 'Volkhov', serif;
+}
+
+.navbar-nav {
+    font-family: 'Taviraj', serif;
+}
+
+.footer-style {
+    font-family: 'Taviraj', serif;
+}
+
+p {
+    font-family: 'Aktiv Grotesk', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'pier_sansbold', Helvetica, Arial, sans-serif;
+}
