@@ -1,0 +1,106 @@
+/* Navbar Related */
+.navbar {
+  transition: opacity 0.5s ease;
+}
+.social-icon {
+  color: black;
+  transition: color 0.2s ease;
+  transition: transform 0.2s ease;
+
+}
+
+.social-icon:hover, .social-icon:focus, .social-icon:active {
+  color: gray;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.nav-item a {
+  padding-bottom: 5px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-container {
+  padding: 2vh 3vw;
+}
+
+.portfolio-nav {
+  padding: 10vh 5vw;
+  height: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.portfolio-nav h2 {
+  font-size: 2rem;
+}
+
+
+
+.portfolio-nav li {
+  padding: 0.75rem;
+}
+
+.portfolio-nav a {
+  color: black;
+  transition: ease 0.5s;
+}
+
+.portfolio-nav a:hover,
+.portfolio-nav a:focus,
+.portfolio-nav a:active {
+  text-decoration: line-through;
+  color: #212121;
+}
+
+/* Footer Related */
+.footer-style div {
+  padding: 0.5rem;
+}
+
+footer .social-icon {
+  padding-right: 0.5rem;
+}
+
+footer {
+  z-index: 999;
+  transition: opacity 0.5s ease;
+}
+
+/* Background Landing Image Related */
+/* .background-img {
+  background-image: url("../img/food-for-the-heart.jpg");
+  width:100%; height:100%;
+  background-attachment: fixed;
+  background-size:100% auto;
+  transition: opacity ease 0.5s;
+  background-repeat: no-repeat;
+}
+ */
+
+img.bg {
+  z-index: -1;
+
+  /* Set rules to fill background */
+  /* min-height: 100.048828vh;
+  min-width: 100vw; */
+  min-height: 1024px;
+  min-width: 683px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+
+  transition: all ease 0.5s;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
