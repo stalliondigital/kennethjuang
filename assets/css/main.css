@@ -13,6 +13,7 @@
   color: gray;
 }
 
+
 .active {
   border-bottom: 1px solid black;
 }
@@ -38,8 +39,6 @@
 .portfolio-nav h2 {
   font-size: 2rem;
 }
-
-
 
 .portfolio-nav li {
   padding: 0.75rem;
@@ -71,30 +70,17 @@ footer {
   transition: opacity 0.5s ease;
 }
 
-/* Background Landing Image Related */
-/* .background-img {
-  background-image: url("../img/food-for-the-heart.jpg");
-  width:100%; height:100%;
-  background-attachment: fixed;
-  background-size:100% auto;
-  transition: opacity ease 0.5s;
-  background-repeat: no-repeat;
-}
- */
-
+/* Background Image Related */
 img.bg {
   z-index: -1;
 
   /* Set rules to fill background */
-  /* min-height: 100.048828vh;
-  min-width: 100vw; */
   min-height: 1024px;
   min-width: 683px;
 
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-
 
   transition: all ease 0.5s;
 
@@ -104,3 +90,32 @@ img.bg {
   left: 0;
 }
 
+/* Positioning Related */
+.sticky-top {
+  top: 2rem;
+}
+
+/* Link Styling */
+.btn-link {
+  color: gray;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+  transition: border ease-in 0.2s;
+  transition: color ease-in 0.2s;
+
+}
+
+.btn-link:hover, .btn-link:focus, .btn-link:active  {
+  color: #666666;
+  border-bottom: 0px solid #999999;
+  text-decoration: none;
+}
+
+.sidebar-style h6 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.sidebar-style div {
+  margin-bottom: 3rem;
+}
