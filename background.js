@@ -84,23 +84,4 @@ $(document).ready(function () {
       $(".bg").attr("src","assets/img/white.jpg");
       }
   );
-
-  $("#death-by-xoko").hover(
-    function () {
-      $(".bg").attr("src","assets/img/death-by-xoko.jpg");
-    },
-    function () {
-      $(".bg").attr("src","assets/img/white.jpg");
-      }
-  );
-
-  $("#decoded").hover(
-    function () {
-      $(".bg").attr("src","assets/img/decoded.jpg");
-    },
-    function () {
-      $(".bg").attr("src","assets/img/white.jpg");
-      }
-  );
-
 });
