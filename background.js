@@ -1,9 +1,8 @@
        
 $(document).ready(function () {
 
-  $("#food-for-the-heart, #mala, #resurgence, #van-cares, #chotto-motto, #the-ruse, #brine, #death-by-xoko, #decoded").hover(
+  $("#food-for-the-heart, #mala, #resurgence, #van-cares, #esports, #airpods, #safe, #parkeasy").hover(
     function () {
-      // $(".bg").attr("src","assets/img/mala.jpg");
       $(".bg").css("transform", 'scale(1.0)');
       $(".bg").css("opacity", '100%');
       $(".navbar").css("opacity", '10%');
@@ -12,7 +11,6 @@ $(document).ready(function () {
 
     },
     function () {
-      // $(".bg").attr("src","assets/img/white.jpg");
       $(".bg").css("transform", 'scale(1.1)');
       $(".bg").css("opacity", '0%');
       $(".navbar").css("opacity", '100%');
@@ -49,6 +47,24 @@ $(document).ready(function () {
       }
   );
 
+  $("#esports").hover(
+    function () {
+      $(".bg").attr("src","assets/img/esports.jpg");
+    },
+    function () {
+      $(".bg").attr("src","assets/img/white.jpg");
+      }
+  );
+
+  $("#airpods").hover(
+    function () {
+      $(".bg").attr("src","assets/img/airpods.jpg");
+    },
+    function () {
+      $(".bg").attr("src","assets/img/white.jpg");
+      }
+  );
+
   $("#van-cares").hover(
     function () {
       $(".bg").attr("src","assets/img/van-cares.jpg");
@@ -58,30 +74,22 @@ $(document).ready(function () {
       }
   );
 
-  $("#chotto-motto").hover(
+  $("#safe").hover(
     function () {
-      $(".bg").attr("src","assets/img/chotto-motto.jpg");
+      $(".bg").attr("src","assets/img/safe.jpg");
     },
     function () {
       $(".bg").attr("src","assets/img/white.jpg");
       }
   );
 
-  $("#the-ruse").hover(
+  $("#parkeasy").hover(
     function () {
-      $(".bg").attr("src","assets/img/the-ruse.jpg");
+      $(".bg").attr("src","assets/img/parkeasy.jpg");
     },
     function () {
       $(".bg").attr("src","assets/img/white.jpg");
       }
   );
 
-  $("#brine").hover(
-    function () {
-      $(".bg").attr("src","assets/img/brine.jpg");
-    },
-    function () {
-      $(".bg").attr("src","assets/img/white.jpg");
-      }
-  );
 });
