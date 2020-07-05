@@ -31,13 +31,18 @@
 }
 
 .portfolio-nav {
-  padding: 10vh 5vw;
-  height: 100%;
+  /* padding: 10vh 5vw; */
+  margin-bottom: 3vh;
+  height: 65vh;
   transition: opacity 0.5s ease;
 }
 
 .portfolio-nav h2 {
   font-size: 2rem;
+}
+
+.portfolio-nav ul {
+  margin: 10rem 5rem;
 }
 
 .portfolio-nav li {
@@ -155,4 +160,8 @@ ol > li:before {
   font-weight: bold;
   text-align: right;
   content: counter(item) ".";
+}
+
+.portfolio-article h5 {
+  font-family: 'pier_sansregular', Helvetica, Arial, sans-serif;
 }
