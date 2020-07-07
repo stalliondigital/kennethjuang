@@ -91,7 +91,7 @@ $(document).ready(function () {
 
   $("#parkeasy").hover(
     function () {
-      $(".bg").attr("src","assets/img/parkeasy.jpg");
+      $(".bg").attr("src","assets/img/parkeasy/onboarding_cover.jpg");
     },
     function () {
       $(".bg").attr("src","assets/img/white.jpg");
