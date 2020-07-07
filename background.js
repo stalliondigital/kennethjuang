@@ -67,18 +67,24 @@ $(document).ready(function () {
 
   $("#van-cares").hover(
     function () {
-      $(".bg").attr("src","assets/img/van-cares.jpg");
+      // Change "assets/img/white.jpg" to 
+      // "assets/img/vancares.jpg"
+      $(".bg").attr("src","assets/img/white.jpg");
     },
     function () {
+      // Do not change asset url
       $(".bg").attr("src","assets/img/white.jpg");
       }
   );
 
   $("#safe").hover(
     function () {
-      $(".bg").attr("src","assets/img/safe.jpg");
+      // Change "assets/img/white.jpg" to 
+      // "assets/img/safebackgroundimage.jpg"
+      $(".bg").attr("src","assets/img/white.jpg");
     },
     function () {
+      // Do not change asset url
       $(".bg").attr("src","assets/img/white.jpg");
       }
   );
