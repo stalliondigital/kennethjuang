@@ -198,3 +198,7 @@ ol > li:before {
 .portfolio-article h5 {
   font-family: 'pier_sansregular', Helvetica, Arial, sans-serif;
 }
+
+nav {
+  z-index: 999;
+}
